@@ -1,0 +1,46 @@
+<!--
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umbrella Database Access - Granted</title>
+  <link rel="stylesheet" href="access_style.css">
+  <script defer src="granted.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+	<img src="https://wallpaperaccess.com/download/umbrella-corporation-logo-452922" alt="Image" height="110" width="200">
+    <h1 id="login-header">Umbrella Corporation Database</h1>
+	<h2 id="login-header">Database Access</h2>
+	
+	<div id="login-error-msg-holder">
+		<p id="login-error-msg">Invalid Code Somewhere</p>
+    </div>
+	
+	<div id="login-granted-msg-holder">
+		<p id="login-granted-msg">Access Granted</p>
+	</div>
+		
+    <form id="granted-form">
+      <input type="password" name="projectCode" id="password-field" class="granted-form-field" autocomplete="off" placeholder="Projects - Enter Project Code">
+	  <p1 id="login-granted-msg"></p1>
+      <input type="password" name="fileCode" id="password-field" class="granted-form-field" autocomplete="off" placeholder="Files - Enter File Code">
+	  <p1 id="login-granted-msg"></p1>
+	  <input type="password" name="aboutCode" id="password-field" class="granted-form-field" autocomplete="off" placeholder="About - Enter 0110">
+	  <p1 id="login-granted-msg"></p1>
+      <input type="submit" value="Get the Page" id="granted-form-submit">
+	  <p1 id="login-granted-msg"></p1>
+	  <input type="submit" value="Reload" id="reload-submit">
+	  <p1 id="login-granted-msg"></p1>
+	  <input type="submit" value="Back to the Main Page" id="back-to-main-submit">
+    </form>
+
+  </main>
+</body>
+
+</html>
