@@ -21,4 +21,4 @@ calc.addEventListener("click", (e) => {
 	e.prevenDefault();
 	
 	window.location.href="calculator.html";
-}
+})
