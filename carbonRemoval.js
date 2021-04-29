@@ -1,4 +1,5 @@
 const aboutThisProjectButton = document.getElementById("aboutThisProject");
+const calculatr = document.getElementById("calc");
 const getToTheProjectsPageButton = document.getElementById("backToProjects");
 
 
@@ -15,3 +16,9 @@ getToTheProjectsPageButton.addEventListener("click", (e) => {
 	
 	window.location.href="projects.html";
 })
+
+calc.addEventListener("click", (e) => {
+	e.prevenDefault();
+	
+	window.location.href="calculator.html";
+}
